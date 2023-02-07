@@ -1,57 +1,233 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="contact_style.css" type="text/css">
-        <link rel="icon" type="image/jpg" href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/da0b88e2-931b-46dc-bbd8-b3b576e209fe/dfoqpyx-776bdb08-4ec2-4bba-a404-04126a393ada.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RhMGI4OGUyLTkzMWItNDZkYy1iYmQ4LWIzYjU3NmUyMDlmZVwvZGZvcXB5eC03NzZiZGIwOC00ZWMyLTRiYmEtYTQwNC0wNDEyNmEzOTNhZGEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.e83NSXTRfeQPcTVeps9uHTMKTuidu1C5ECFO9XxFrhg">
-		<meta charset = "utf-8" />
-        <title>Contact</title>
-    </head>
-    <body>
-		<div class="tab">
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                <div class="green"></div>
-            </a>
-            <a href="https://www.youtube.com/watch?v=GWqshuTyqjA">
-			    <div class="yellow"></div>
-            </a>
-            <a href="https://www.youtube.com/watch?v=wsdy_rct6uo">
-			    <div class="red"></div>
-            </a>
-            <div class="miniTitle">
-                <p>My Resume</p>
-            </div>
-            <div class="grey3"> </div>
-			<div class="grey2"> </div>
-			<div class="grey1"> </div>
-		</div>
-		<div class="intro">
-            <a href="https://lastimosapeter.github.io/Lastimosa/Resume/index.html">
-                <div class="back">←</div>
-            </a>
-            <div class="next">→</div>
-		</div>
-        <div class="main">
-            <main>
-                <div class="card">
-                    <form>
-                        <h1>Drop a message</h1>
-                        <input type="text" name="name" placeholder="Enter name"><br>
-                        <input type="email" name="email" placeholder="Enter email"><br>
-                
-                        <textarea name="message" placeholder="Your message here..." rows="10" cols="30"></textarea><br/>
-                
-                        <input type="submit" name="submit" value="Submit"/>
-                        <input type="reset" name="reset" value="Reset"/><br/>
-                        
-                        <a href="https://ph.linkedin.com/in/ianpeterlastimosa?original_referer=https%3A%2F%2Fwww.google.com%2F">LinkedIn</a>
-                        <a href="https://www.facebook.com/ian.peter.lastimosa?mibextid=ZbWKwL">Facebook</a>
-                        <a href="https://github.com/LastimosaPeter">GitHub</a>
-                    </form>
-                </div>
-                <div class="card">
-                    <img src="https://i.redd.it/0rozcxgonay01.jpg" class="img">
-                </div>
-            </main>
-        </div>
-    </body>
-</html>
+body {
+    background-image: url("https://wallpaperaccess.com/full/2065275.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 200px 200px 200px;
+}
+
+h1 { 
+    font-size: 70px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-top: 30px;
+    border-top: 5px solid black;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 24px;
+    margin-top: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+table {
+    border: 1px solid black;
+    margin: 25px 0;
+	font-size: 10;
+	font-family: Lucida Bright;
+	min-width: 400px;
+	width: 50%; 
+    margin-left: auto; 
+    margin-right:auto;
+}
+
+tr {
+    border: 1px solid black; 
+    text-align: center;
+}
+
+th {
+    border: 1px solid black; 
+    text-align: center;
+}
+
+td {
+    border: 1px solid black; 
+    text-align: center;
+}
+
+.image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.redd.it/0dppl5wou5g91.png");
+    background-size: auto;
+    padding: 50px 50px 50px 50px;
+}
+
+.tab {
+    background-color: #2a2a2b;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, .3);
+}
+
+.intro {
+    width: 100%;
+    height: 40px;
+    background-color: #474748;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, .3);
+    display: flex;
+    margin: 0 auto;
+}
+
+.back {
+    color: darkgray;
+    padding: 5px 5px 5px 10px;
+    height: 10px;
+    width: 10px;
+    font-size: larger;
+    margin: 5px 0 0 5px;
+    font-family: 'SF Pro', sans-serif;
+    text-align: center;
+}
+
+.next {
+    color: white;
+    padding: 5px 5px 5px 10px;
+    height: 10px;
+    width: 10px;
+    font-size: larger;
+    margin: 5px 0 0 5px;
+    font-family: 'SF Pro', sans-serif;
+    text-align: center;
+}
+
+.miniTitle {
+    height: 40px;
+    background-color: white;
+    margin: 0 auto;
+    height: 10%;
+    width: 20%;
+    border-radius: 0px 0px 2px 2px;
+}
+
+.miniTitle p {
+    color: white;
+    font-family: 'SF Pro', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.green {
+    height: 20px;
+    width: 20px;
+    background-color: #36c84b;
+    border-radius: 50%;
+    margin: 10px 0px 5px 10px;
+}
+
+.yellow {
+    height: 20px;
+    width: 20px;
+    background-color: #fdbc40;
+    border-radius: 50%;
+    margin: 10px 0px 5px 10px;
+}
+
+.red {
+    height: 20px;
+    width: 20px;
+    background-color: #fc5753;
+    border-radius: 50%;
+    margin: 10px 0px 5px 10px;
+}
+
+.grey3 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin: 10px 0px 0px 10px;
+    align-items: right;
+}
+
+.grey2 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin: 10px 5px 0px 10px;
+    align-items: right;
+}
+
+.grey1 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin: 10px 10px 0px 10px;
+    align-items: right;
+}
+
+.main {
+    padding: 50px 50px 50px 50px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, .3);
+    font-family: 'SF Pro', sans-serif;
+}
+
+.ian {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+    border: 10px solid white;
+    box-shadow: 0 0px 30px 0 rgba(0, 0, 0, .3);
+}
+
+.headDiv {
+    text-align: center;
+}
+
+.card {
+    color: white;
+    background-color: #2a2a2b;
+    padding: 24px;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0 0px 30px 1 rgba(0, 0, 0, .5);
+}
+
+.card h2 {
+    margin-left: 30px; 
+    margin-bottom: 10px;
+}
+
+.card li {
+    margin-left: 40px; 
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.card p {
+    margin-right: 40px; 
+    margin-bottom: 10px;
+    list-style: none;
+    text-align: right;
+}
+
+.prof {
+    margin-left: 80px;
+}
+
+.prof h1 {
+    font-style: italic;
+}
+
+.prof p {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+}
