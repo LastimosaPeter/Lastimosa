@@ -1,0 +1,71 @@
+body {
+    background-image: url("https://i.imgur.com/EF78krJ.jpg");
+    padding: 100px 200px 200px 200px;
+}
+
+hr {
+    margin-top: 30px;
+    border-top: 1.5px dashed black;
+}
+
+footer {
+    text-align: center;
+}
+
+.tab {
+    background-color: #2a2a2b;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+}
+
+.intro {
+    width: 100%;
+    height: 40px;
+    background-color: #474748;
+}
+
+.green {
+    height: 20px;
+    width: 20px;
+    background-color: #36c84b;
+    border-radius: 50%;
+    margin: 10px 0px 5px 10px;
+}
+
+.yellow {
+    height: 20px;
+    width: 20px;
+    background-color: #fdbc40;
+    border-radius: 50%;
+    margin: 10px 0px 5px 10px;
+}
+
+.red {
+    height: 20px;
+    width: 20px;
+    background-color: #fc5753;
+    border-radius: 50%;
+    margin: 10px 0px 5px 10px;
+}
+
+.main {
+    padding: 50px 50px 50px 50px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.ian {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid lightgray;
+}
+
+.headDiv {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
