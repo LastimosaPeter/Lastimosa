@@ -171,7 +171,6 @@ p {
 }
 
 .icons::after {
-    content: "";
     clear: both;
     display: table;
 }
