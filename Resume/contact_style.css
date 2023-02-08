@@ -189,6 +189,7 @@ h1 {
 .box2 {
     width: 100%;
     box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.9);
+    font-family: 'SF Pro', sans-serif;
 }
 
 .socials {
