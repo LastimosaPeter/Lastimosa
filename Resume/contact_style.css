@@ -2,7 +2,7 @@ body {
     background-image: url("https://wallpaperaccess.com/full/2065275.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 100px 200px 200px 200px;
+    padding: 100px 200px 100px 200px;
 }
 
 a {
@@ -52,7 +52,7 @@ h1 {
 
 .main {
     padding: 30px 50px 50px 50px;
-    background-color: #efefee;
+    background-color: rgba(239, 239, 238, 0.90);
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0 20px 30px 0 rgba(0, 0, 0, .3);
     font-family: 'SF Pro', sans-serif;
@@ -202,4 +202,10 @@ h1 {
     height: 50px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.acknowledgement {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
