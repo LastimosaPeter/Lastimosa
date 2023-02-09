@@ -5,7 +5,7 @@ body {
     padding: 100px 200px 200px 200px;
 }
 
-h1 {
+h1 { 
     font-size: 70px;
     margin-bottom: 20px;
     margin-bottom: 20px;
@@ -35,23 +35,23 @@ a {
 
 table {
     background-color: white;
-    border: none;
+    border:none;
     border-radius: 10px 10px 10px 10px;
-    font-size: 10;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    table-layout: fixed;
+	font-size: 10;
+	width: 100%; 
+    margin-left: auto; 
+    margin-right:auto;
+    table-layout:fixed;
     box-shadow: 0 20px 30px 0 rgba(0, 0, 0, .1);
 }
 
 tr {
-    border: none;
+    border:none;
     text-align: center;
 }
 
 th {
-    border: none;
+    border:none;
     text-align: center;
     background-color: #2a2a2b;
     color: white;
@@ -59,7 +59,7 @@ th {
 }
 
 td {
-    border: none;
+    border:none; 
     text-align: center;
 }
 
@@ -208,18 +208,18 @@ h3 {
 }
 
 .card h2 {
-    margin-left: 30px;
+    margin-left: 30px; 
     margin-bottom: 10px;
 }
 
 .card li {
-    margin-left: -10px;
+    margin-left: -10px; 
     margin-bottom: 10px;
     list-style: none;
 }
 
 .card p {
-    margin-right: 40px;
+    margin-right: 40px; 
     margin-bottom: 10px;
     list-style: none;
     text-align: right;
@@ -264,18 +264,18 @@ h3 {
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .1);
 }
 
-.old1 li {
-    display: block;
+.old1 li { 
+    display: block; 
 }
 
-.old1 li:before {
-    content: counter(item) "  ";
-    counter-increment: item
+.old1 li:before { 
+    content: counter(item) "  "; 
+    counter-increment: item 
 }
 
 .lid {
     background: white;
-    color: #2a2a2b;
+    color: black;
     padding: 20px;
     margin: 5px;
     border-radius: 60px;
@@ -303,17 +303,22 @@ h3 {
 .ads {
     align-items: center;
     height: 250px;
+    margin-bottom: 45px;
 }
 
 .adbg {
     background-color: white;
-    height: 252px;
+    height: 270px;
     max-width: 70%;
     border-radius: 10px 10px 10px 10px;
 }
 
 .adboard {
     max-width: 50%;
+    width: 500px; 
+    height: 270px; 
+    object-fit: cover;
+    object-position: 100% 0;
     float: right;
     display: block;
     border-radius: 0 10px 10px 0;
