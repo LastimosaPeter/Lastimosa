@@ -311,6 +311,7 @@ h3 {
     height: 270px;
     max-width: 70%;
     border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .1);
 }
 
 .adboard {
@@ -323,6 +324,7 @@ h3 {
     display: block;
     border-radius: 0 10px 10px 0;
     filter: brightness(90%);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .1);
 }
 
 .adcaption {
